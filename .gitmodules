@@ -1,0 +1,4 @@
+[submodule "webrtc"]
+	path = webrtc
+	url = git@gitlab.buka.tv:yangkang/webrtc-custom.git
+	branch = M94
