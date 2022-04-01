@@ -1,8 +1,12 @@
 webrtc各个版本在不同平台的库和demo，供上层用户使用。
 
 
+## 关于头文件和源码
+- 头文件直接子模块指向google的webrt仓库：上层用户在使用的时候，需要webrtc的头文件，甚至源文件。
+- 我不应该有任何修改。
 
-## M99
+## 编译好的库
+### M99
 
 #### windows
 - [libwebrtc_windows_x86.lib]
@@ -60,9 +64,9 @@ webrtc各个版本在不同平台的库和demo，供上层用户使用。
 - [webrtc-adpter.js]
 - [webrtc-web-examplses]
 
-## M94
+### M94
 
-## M84
+### M84
 
 
 [WebRTC的版本发布记录](doc/webrtc_version.md)

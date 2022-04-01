@@ -1,4 +1,4 @@
 [submodule "webrtc"]
 	path = webrtc
-	url = git@gitlab.buka.tv:yangkang/webrtc-custom.git
+	url = https://chromium.googlesource.com/external/webrtc.git
 	branch = M94
