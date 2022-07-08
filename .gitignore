@@ -1,4 +1,8 @@
 .DS_Store
 */.DS_Store
+/webrtc
 /src
 /depot_tools
+_gclient*
+*/_gclient*
+/.gclient
