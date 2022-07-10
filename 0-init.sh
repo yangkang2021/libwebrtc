@@ -13,7 +13,8 @@ fi
 #检查和初始化.gclient
 if [ ! -f "$base_dir/.gclient" ]; then
   gclient config https://chromium.googlesource.com/external/webrtc.git  --name=src
-  #echo "target_os = ['android', 'unix','win','mac','ios']" >> .gclient
+  #如果是android，用下面的语句设置target_os:
+  #echo "target_os = ['android']" >> .gclient
 else
   echo ".gclient exist, not config gclient"
 fi
