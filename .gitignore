@@ -6,3 +6,6 @@
 _gclient*
 */_gclient*
 /.gclient
+/output
+/.cipd
+/.gclient_entries

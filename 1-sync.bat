@@ -18,6 +18,4 @@ set PATH=%~dp0depot_tools;%PATH%
 
 gclient sync --no-history -v --nohooks --force --revision src@6584528aeb0f0e2ab4d14114aefeee7e5997ade9
 :END
-pause7ade9
-:END
-pause
+pause "webrtc sync over"
