@@ -15,7 +15,9 @@ vpython3 ./tools_webrtc/android/build_aar.py \
 --arch armeabi-v7a arm64-v8a \
 --verbose \
 --extra-ninja-switches='webrtc' \
---extra-gn-args='is_debug=false is_component_build=false is_clang=true rtc_include_tests=false rtc_use_h264=true rtc_enable_protobuf=false use_rtti=true use_custom_libcxx=false'
+--extra-gn-args='rtc_use_h264=true is_clang=true is_component_build=false is_debug=false rtc_build_examples=false rtc_build_tools=false rtc_enable_protobuf=false rtc_include_tests=false use_custom_libcxx=false'
+
+
 
 
 cd $base_dir
